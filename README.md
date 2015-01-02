@@ -1,13 +1,10 @@
-# roots-test
+# Roots Browserify Template
 
-Super fun times
+A [Roots][roots] template for using Browserify as a JavaScript pipeline.
 
-Setup
------
+The only major change from the base roots template is the removal of require.js and the addition of the `roots-browserify` extension.
 
-- make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
-- clone this repo down and `cd` into the folder
-- run `npm install`
-- run `roots watch`
-- ???
-- get money
+Out of the box, the stack is: **Jade, Stylus, JavaScript**. You can absolutely use this with CoffeeScript as well, but you will need to install the `coffeeify` npm module and include it as a transpiler in the browserify config. See `app.coffee` for the relevant code.
+
+[roots]: http://roots.cx
+
